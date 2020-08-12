@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shopping Cart</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <base href="/"> -->
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Karla&family=Rubik&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div id="app-holder">
+        <div id="menu-cart">
+          <div id="menu">
+            <h2>Menu</h2>
+            <div id="menu-area"></div>
+          </div>
+          <div id="cart">
+            <h2 class="text-center">Cart</h2>
+            <div id="cart-area">
+              <div id="cart-total">
+                <div class="cart-item">
+                  <span class="item-text">
+                    Total
+                  </span>
+                  <p class="item-total">
+                    $
+                    <span id="total-amount">0</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
